@@ -2,7 +2,7 @@ import os
 import requests
 from typing import Optional, Dict, Any, List
 
-API_BASE_URL = os.getenv("API_BASE_URL", "http://127.0.0.1:8000")
+API_BASE_URL = os.getenv("API_BASE_URL", "http://127.0.0.1:8005")
 
 class APIClient:
     def __init__(self, base_url: str = API_BASE_URL):
